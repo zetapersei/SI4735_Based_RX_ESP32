@@ -1,0 +1,7546 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "48958671-ba4f-447e-b0b4-1b0da96d47b2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "schematic_esp32_oled-eagle-import:2.2KOHM-0603-1/10W-1%"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2.2kΩ resistor\n\nA resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2.2KOHM-0603-1/10W-1%_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:22NF/22,000PF-0603-50V-10%"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 2.921 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -2.159 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.022uF/22nF/22,000pF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "22NF/22,000PF-0603-50V-10%_1_0"
+				(rectangle
+					(start -2.032 0.508)
+					(end 2.032 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 1.524)
+					(end 2.032 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:22PF-0603-50V-5%"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 2.921 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -2.159 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "22pF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "22PF-0603-50V-5%_1_0"
+				(rectangle
+					(start -2.032 0.508)
+					(end 2.032 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 1.524)
+					(end 2.032 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:3.3KOHM-0603-1/10W-1%"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3kΩ resistor\n\nA resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3.3KOHM-0603-1/10W-1%_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:4.7UF-1206-16V-(+80/-20%)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 2.921 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -2.159 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.7µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4.7UF-1206-16V-(+80/-20%)_1_0"
+				(rectangle
+					(start -2.032 0.508)
+					(end 2.032 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 1.524)
+					(end 2.032 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:ANTENNA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ANT"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:PAD-01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ANTENNA_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:AUDIO_JACK_2.5MMSPECIAL_POGO_PINS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 3.048 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:STEREOJACK2.5MM_SPECIAL_POGOPINS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack\n\n2.5mm variants of PTH and SMT audio jacks.\n\nSparkFun Products:\n• SparkFun PicoBoard- 2.5mm SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AUDIO_JACK_2.5MMSPECIAL_POGO_PINS_1_0"
+				(rectangle
+					(start -5.842 2.54)
+					(end -4.318 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "L"
+					(at 2.286 -2.286 0)
+					(effects
+						(font
+							(size 1.016 0.8636)
+							(thickness 0.1727)
+							(bold yes)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "R"
+					(at 2.286 0.254 0)
+					(effects
+						(font
+							(size 1.016 0.8636)
+							(thickness 0.1727)
+							(bold yes)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "SLEEVE"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "RING1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "LEFT"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "SHIELD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "RIGHT"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "TIP"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:CRYSTALPTH-2X6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:CRYSTAL-PTH-2X6-CYL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Crystals (Generic)\n\nThese are passive quartz crystals, which can be used as a clock source for a microcontroller.\n\nCrystal's are two-terminal devices. They require external \"load\" capacitors to generate an oscillating signal."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CRYSTALPTH-2X6_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.016 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.778) (xy -1.016 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.524) (xy 0.381 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 1.524) (xy -0.381 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -1.524) (xy 0.381 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.524) (xy -0.381 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.778) (xy 1.016 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1"
+					(at -2.159 -1.143 0)
+					(effects
+						(font
+							(size 0.8636 0.734)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "2"
+					(at 1.524 -1.143 0)
+					(effects
+						(font
+							(size 0.8636 0.734)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:CXXC10B6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CX"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:XC10B6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "X CAPACITOR\n\nfor power line"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CXXC10B6_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:DISPLAY-OLED-128X64-I2C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 15.24 12.7 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 15.24 10.16 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:DISPLAY-OLED-128X64-I2C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "128x64 Dot Matrix OLED Module based on SSD1306 chip Variant with I2C interface\n\nMore details available here: http://www.instructables.com/id/Monochrome-096-i2c-OLED-display-with-arduino-SSD13/ http://www.instructables.com/id/Monochrome-096-i2c-OLED-display-with-arduino-SSD13/\n\nSSD1306 datasheet:\nhttps://cdn-shop.adafruit.com/datasheets/SSD1306.pdf https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf\n\nhttp://www.ebay.com/sch/oled+display+128x64+iic Click here to find device on ebay.com Note: There are two variants: I2C and SPI. Search for the proper version."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DISPLAY-OLED-128X64-I2C_1_0"
+				(rectangle
+					(start -11.684 0)
+					(end -10.16 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -11.684 2.54)
+					(end -10.16 4.064)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -11.684 5.08)
+					(end -10.16 6.604)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -9.144 2.54)
+					(end -7.62 4.064)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -9.144 5.08)
+					(end -7.62 6.604)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.604 5.08)
+					(end -5.08 6.604)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 -15.24) (xy -15.24 15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 15.24) (xy 12.7 15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -7.62) (xy -12.7 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 7.62) (xy 10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy -12.7 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 7.62) (xy 10.16 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -15.24) (xy -15.24 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 15.24) (xy 12.7 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "128x64"
+					(at 7.62 -5.08 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify right bottom)
+					)
+				)
+				(text "OLED"
+					(at 7.62 -2.54 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify right bottom)
+					)
+				)
+				(pin power_in line
+					(at -5.08 20.32 270)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 20.32 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 20.32 270)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 20.32 270)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:ENCODER-SWITCH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -7.62 7.874 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -7.62 -7.874 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:ROTARY_ENC_PLAIN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary Encoder w/ Select Switch\n\nEncoders rotate similarly to potentiometers, but they’re different from potentiometers in that an encoder has full rotation without limits. They output gray code so that you can tell how much and in which direction the encoder has been turned.\n\nThis encoder includes a push-down select switch built into the shaft.\n\nSparkFun Products\n\n• https://www.sparkfun.com/products/9117 Rotary Encoder (COM-09117)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ENCODER-SWITCH_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -7.62) (xy -7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy -7.62 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "SW+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "SW+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "SW-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "SW-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:ESP32-DEVKITC-32D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -15.2572 26.0643 0)
+				(effects
+					(font
+						(size 1.78 1.513)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -15.2563 -27.9698 0)
+				(effects
+					(font
+						(size 1.7799 1.5129)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:MODULE_ESP32-DEVKITC-32D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Eval Board For Esp-Wroom-32 https://pricing.snapeda.com/parts/ESP32-DEVKITC-32D/Espressif%20Systems/view-part?ref=eda Check prices"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32-DEVKITC-32D_1_0"
+				(polyline
+					(pts
+						(xy -15.24 -25.4) (xy -15.24 25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 25.4) (xy 15.24 25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -25.4) (xy -15.24 -25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 25.4) (xy 15.24 -25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -20.32 22.86 0)
+					(length 5.08)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "IO26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "IO27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -5.08 0)
+					(length 5.08)
+					(name "IO14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "IO12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -10.16 0)
+					(length 5.08)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -12.7 0)
+					(length 5.08)
+					(name "IO13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -15.24 0)
+					(length 5.08)
+					(name "SD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -17.78 0)
+					(length 5.08)
+					(name "SD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -20.32 0)
+					(length 5.08)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -22.86 0)
+					(length 5.08)
+					(name "EXT_5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 20.32 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 22.86 180)
+					(length 5.08)
+					(name "GND3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 20.32 180)
+					(length 5.08)
+					(name "IO23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 17.78 180)
+					(length 5.08)
+					(name "IO22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 15.24 180)
+					(length 5.08)
+					(name "TXD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "RXD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(name "IO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "IO19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "IO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "IO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 17.78 0)
+					(length 5.08)
+					(name "SENSOR_VP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "IO17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "IO16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "IO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(name "IO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -15.24 180)
+					(length 5.08)
+					(name "IO15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -17.78 180)
+					(length 5.08)
+					(name "SD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -20.32 180)
+					(length 5.08)
+					(name "SD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 20.32 -22.86 180)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 15.24 0)
+					(length 5.08)
+					(name "SENSOR_VN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "IO34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 10.16 0)
+					(length 5.08)
+					(name "IO35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "IO32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "IO33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "IO25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:L"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#L"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "INDUCTOR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_1_0"
+				(arc
+					(start 0 0)
+					(mid -1.27 1.27)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.27 1.27)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.81 1.27)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "${SPICEEXTRA}"
+					(at -2.54 -7.62 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${SPICEMODEL}"
+					(at -2.54 -5.08 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:SI4735-D60-GU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 30.8356 9.1186 0)
+				(effects
+					(font
+						(size 2.0828 1.7703)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 30.2006 6.5786 0)
+				(effects
+					(font
+						(size 2.0828 1.7703)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:SSOP24_SIL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SI4735-D60-GU_1_0"
+				(polyline
+					(pts
+						(xy 7.62 -33.02) (xy 63.5 -33.02)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -33.02)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 63.5 -33.02) (xy 63.5 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 63.5 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 2.54 0 0)
+					(length 5.08)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 -22.86 0)
+					(length 5.08)
+					(name "NC_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 -25.4 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -27.94 0)
+					(length 5.08)
+					(name "AMI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 68.58 -27.94 180)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 68.58 -25.4 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 68.58 -22.86 180)
+					(length 5.08)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 68.58 -20.32 180)
+					(length 5.08)
+					(name "~{SEN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 68.58 -17.78 180)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 68.58 -15.24 180)
+					(length 5.08)
+					(name "SDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 68.58 -12.7 180)
+					(length 5.08)
+					(name "RCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -2.54 0)
+					(length 5.08)
+					(name "DFS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 68.58 -10.16 180)
+					(length 5.08)
+					(name "VD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 68.58 -7.62 180)
+					(length 5.08)
+					(name "VA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 68.58 -5.08 180)
+					(length 5.08)
+					(name "DBYP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 68.58 -2.54 180)
+					(length 5.08)
+					(name "ROUT/[DOUT]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 68.58 0 180)
+					(length 5.08)
+					(name "LOUT/[DFS]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -5.08 0)
+					(length 5.08)
+					(name "GPO3/[DCLK]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -7.62 0)
+					(length 5.08)
+					(name "GPO2/[INT]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 -10.16 0)
+					(length 5.08)
+					(name "GPO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 -12.7 0)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 -15.24 0)
+					(length 5.08)
+					(name "NC_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -17.78 0)
+					(length 5.08)
+					(name "FMI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -20.32 0)
+					(length 5.08)
+					(name "RFGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:TL36WO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 5.08 -2.54 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 7.62 -2.54 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "schematic_esp32_oled:TL3XWO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TINY SWITCH ON - ON\n\nSource: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da-01-de-Subminiaturschalter_TL_36WO.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TL36WO_1_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.175) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy -1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "O"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "schematic_esp32_oled-eagle-import:VCC"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#SUPPLY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.905 3.175 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_1_0"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 209.55 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b5b0d30-3fce-444c-9587-e5e27517489f")
+	)
+	(junction
+		(at 62.23 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ff0fe13-d994-4f9f-b23f-d86c258876d6")
+	)
+	(junction
+		(at 166.37 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2587c7e1-860c-4796-8c01-33586c95d05d")
+	)
+	(junction
+		(at 151.13 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a7e8f90-45d0-41d7-a994-950d9d46ec51")
+	)
+	(junction
+		(at 69.85 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ba8ca13-abe2-4be2-bd4b-b1ca020ab4a3")
+	)
+	(junction
+		(at 153.67 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a1960b9-271a-4b23-b95b-04a0ad88c349")
+	)
+	(junction
+		(at 148.59 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a3d8b03-6937-4c9a-8bdb-285fd7bd4159")
+	)
+	(junction
+		(at 97.79 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51f524d1-1ede-4d21-ab4f-1356f48e99be")
+	)
+	(junction
+		(at 146.05 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e035161-4f3e-416f-af8b-e91e5a9f8f47")
+	)
+	(junction
+		(at 143.51 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e92e3b5-1183-444d-85d5-e816b16d0162")
+	)
+	(junction
+		(at 156.21 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77492a8d-90c9-4a0f-8415-c2f3cb3e0949")
+	)
+	(junction
+		(at 133.35 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dc480d3-efe0-4b74-9385-deec29cdb87f")
+	)
+	(junction
+		(at 107.95 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3e9232e-e9ec-4edb-905c-5fc545b8e277")
+	)
+	(junction
+		(at 85.09 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aef77fbd-53d0-4ccd-a7db-d84776628f1f")
+	)
+	(junction
+		(at 148.59 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b359c992-65a9-42dc-8ab1-92c0b07870e4")
+	)
+	(junction
+		(at 163.83 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6bd15ce-feab-4546-86b8-0aa77d8881f7")
+	)
+	(junction
+		(at 133.35 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc58ee2a-89a5-47a2-9fdb-ccb3dcbfeee1")
+	)
+	(junction
+		(at 161.29 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d251eb50-bda6-4d40-914a-d2b0d7598724")
+	)
+	(junction
+		(at 133.35 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc795fdf-1980-4785-8a89-4db5702971a2")
+	)
+	(wire
+		(pts
+			(xy 189.23 63.5) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0483d381-3c28-47cd-9adb-e9e6d3f8afc3")
+	)
+	(wire
+		(pts
+			(xy 67.31 104.14) (xy 69.85 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0681ed26-7a70-4224-8e5d-e71d8335893c")
+	)
+	(wire
+		(pts
+			(xy 173.99 114.3) (xy 168.91 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "07e4a412-d224-45ec-991b-6109261b46c9")
+	)
+	(wire
+		(pts
+			(xy 133.35 66.04) (xy 135.89 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "082c953a-0073-4b32-93f3-1d9b57e0a4dc")
+	)
+	(wire
+		(pts
+			(xy 140.97 83.82) (xy 140.97 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0a3059b5-441c-4a80-a9a8-0907ed9f4a37")
+	)
+	(wire
+		(pts
+			(xy 67.31 83.82) (xy 62.23 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "10fda4cf-12af-4d12-a966-3ce81661acd0")
+	)
+	(wire
+		(pts
+			(xy 138.43 111.76) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "113b6524-1fdd-4db0-9e76-23c06dd24750")
+	)
+	(wire
+		(pts
+			(xy 214.63 96.52) (xy 222.25 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1193a0cd-e4e6-45f6-83a2-b70a21144206")
+	)
+	(wire
+		(pts
+			(xy 209.55 60.96) (xy 209.55 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "12af084a-1fa7-4934-8de7-90dc683df0bd")
+	)
+	(wire
+		(pts
+			(xy 133.35 111.76) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1c6bc833-e740-4ab5-a2bb-410be0595c4a")
+	)
+	(wire
+		(pts
+			(xy 222.25 96.52) (xy 222.25 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1d2cf112-d54a-4bce-a33c-79daabfd5c0f")
+	)
+	(wire
+		(pts
+			(xy 166.37 81.28) (xy 166.37 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1dff97f1-fc59-4bb3-9155-e79143bef166")
+	)
+	(wire
+		(pts
+			(xy 67.31 81.28) (xy 44.45 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1f0b53b5-c8a7-47c7-a809-0143247f15ec")
+	)
+	(wire
+		(pts
+			(xy 87.63 109.22) (xy 87.63 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "217f1efe-3c5f-425e-abf1-a8b27f367d27")
+	)
+	(wire
+		(pts
+			(xy 130.81 43.18) (xy 143.51 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "27d37823-098f-4d30-952c-3c70a42602f9")
+	)
+	(wire
+		(pts
+			(xy 156.21 66.04) (xy 148.59 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "29013e34-4bcb-437c-bb37-31dec5375355")
+	)
+	(wire
+		(pts
+			(xy 135.89 66.04) (xy 135.89 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "29076262-801b-442a-9c80-a0752497a86a")
+	)
+	(wire
+		(pts
+			(xy 148.59 66.04) (xy 148.59 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "34a6e71b-84fa-40f1-86a4-999b80e5ea33")
+	)
+	(wire
+		(pts
+			(xy 156.21 101.6) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3770a6d5-bbe5-4aa2-a96b-4273b6587d5f")
+	)
+	(wire
+		(pts
+			(xy 107.95 45.72) (xy 97.79 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3b18c4bf-5bd7-4705-99b4-0015af0b2e73")
+	)
+	(wire
+		(pts
+			(xy 143.51 137.16) (xy 143.51 162.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "40015fd3-edfd-4f51-9972-95c544c7e79d")
+	)
+	(wire
+		(pts
+			(xy 67.31 86.36) (xy 67.31 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "40889140-9425-43e6-acde-a826ef536764")
+	)
+	(wire
+		(pts
+			(xy 133.35 76.2) (xy 161.29 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4d2f7473-852b-447c-bc51-35c9c01d16dc")
+	)
+	(wire
+		(pts
+			(xy 41.91 101.6) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4dfd38ef-fd46-4741-86d1-53b5371eecf8")
+	)
+	(wire
+		(pts
+			(xy 62.23 38.1) (xy 67.31 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4e97c149-feb5-43d2-998b-208bdaa5ba11")
+	)
+	(wire
+		(pts
+			(xy 67.31 88.9) (xy 41.91 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "53390aa0-ebec-4905-ad6f-fbe8f2e562b9")
+	)
+	(wire
+		(pts
+			(xy 44.45 68.58) (xy 44.45 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5d4fbf06-4ee5-4600-a112-668b58b56324")
+	)
+	(wire
+		(pts
+			(xy 44.45 81.28) (xy 44.45 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5fa215b3-06dd-4aec-a07b-9716b4db0c98")
+	)
+	(wire
+		(pts
+			(xy 133.35 71.12) (xy 148.59 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5fa32947-5020-48dc-9154-99af36928857")
+	)
+	(wire
+		(pts
+			(xy 214.63 83.82) (xy 214.63 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "656c883e-928d-431c-bd6a-6ffa2c762129")
+	)
+	(wire
+		(pts
+			(xy 191.77 60.96) (xy 191.77 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "65c8da44-85c3-4632-af5a-220d83c17ec7")
+	)
+	(wire
+		(pts
+			(xy 143.51 43.18) (xy 143.51 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "67e919af-34a2-40a4-9ea4-d2a9559aa079")
+	)
+	(wire
+		(pts
+			(xy 194.31 60.96) (xy 209.55 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6906d16b-2982-4fb8-ac60-7238057c3f80")
+	)
+	(wire
+		(pts
+			(xy 161.29 38.1) (xy 107.95 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6ac286ed-26c7-4365-bb78-459ec658d028")
+	)
+	(wire
+		(pts
+			(xy 163.83 60.96) (xy 163.83 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6d836ff2-5d91-4545-a849-a5c9014e2b6c")
+	)
+	(wire
+		(pts
+			(xy 151.13 78.74) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "717c3b9e-242b-40db-aa88-d3e56e31dddd")
+	)
+	(wire
+		(pts
+			(xy 166.37 142.24) (xy 161.29 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "72b068f2-46aa-450d-b57d-05ae992ba15f")
+	)
+	(wire
+		(pts
+			(xy 130.81 45.72) (xy 133.35 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7a5e1e5f-b359-4dd7-9711-63d125b316ed")
+	)
+	(wire
+		(pts
+			(xy 62.23 83.82) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7b04d65a-2624-421c-846c-cce2f7b6bbac")
+	)
+	(wire
+		(pts
+			(xy 67.31 91.44) (xy 67.31 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7b30ca36-4403-4498-940d-849ec0b0663f")
+	)
+	(wire
+		(pts
+			(xy 214.63 88.9) (xy 219.71 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7b4a0c93-1704-40bf-a476-b11249d14c4c")
+	)
+	(wire
+		(pts
+			(xy 156.21 137.16) (xy 143.51 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7d100095-eab7-45ea-90ab-5da1b41971bd")
+	)
+	(wire
+		(pts
+			(xy 133.35 71.12) (xy 133.35 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7d1d78c6-08d5-4c09-9ead-d5fd0d5e5d1b")
+	)
+	(wire
+		(pts
+			(xy 133.35 86.36) (xy 168.91 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7d5dec41-bf3f-456f-8159-02ebe8394b15")
+	)
+	(wire
+		(pts
+			(xy 135.89 58.42) (xy 143.51 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7e590bbe-348b-48ea-99db-49d243f468d8")
+	)
+	(wire
+		(pts
+			(xy 143.51 111.76) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7e67f0cf-a290-4728-9d50-004062f98041")
+	)
+	(wire
+		(pts
+			(xy 158.75 50.8) (xy 156.21 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7f73e308-f653-4759-8f46-3df48ff7ea9c")
+	)
+	(wire
+		(pts
+			(xy 153.67 40.64) (xy 153.67 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "860c3dcd-e620-4103-8e82-1954582d0460")
+	)
+	(wire
+		(pts
+			(xy 138.43 66.04) (xy 138.43 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8731ca73-0671-4751-8cf8-061c9da001de")
+	)
+	(wire
+		(pts
+			(xy 163.83 111.76) (xy 163.83 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8871589c-5f35-4839-a570-393c27d71501")
+	)
+	(wire
+		(pts
+			(xy 161.29 76.2) (xy 161.29 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8a45500f-1b5b-4d22-a624-baf292058bdb")
+	)
+	(wire
+		(pts
+			(xy 163.83 73.66) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8c5a316b-50a6-48e1-9b6f-0d861e97e59f")
+	)
+	(wire
+		(pts
+			(xy 41.91 88.9) (xy 41.91 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8d210403-9e43-46ac-9939-ed15616a0465")
+	)
+	(wire
+		(pts
+			(xy 151.13 101.6) (xy 156.21 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8e617b63-a00b-43de-a356-a6595beaa922")
+	)
+	(wire
+		(pts
+			(xy 166.37 119.38) (xy 166.37 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8e72bb04-f1be-4d6e-ae27-32b7843dfb86")
+	)
+	(wire
+		(pts
+			(xy 138.43 68.58) (xy 133.35 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "91680dfa-185b-49ef-9f30-3cdda2b50d1b")
+	)
+	(wire
+		(pts
+			(xy 156.21 111.76) (xy 156.21 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "925bdf71-0a67-4a47-b2c4-6ab1b970c1db")
+	)
+	(wire
+		(pts
+			(xy 95.25 38.1) (xy 85.09 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9412f695-17b3-46f5-94e5-51a23325e934")
+	)
+	(wire
+		(pts
+			(xy 151.13 162.56) (xy 146.05 162.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9543dfd3-8a45-4f41-ad78-2470d1f8552a")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 148.59 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "957eec56-288a-4093-8230-065b0194e41f")
+	)
+	(wire
+		(pts
+			(xy 133.35 63.5) (xy 133.35 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "976f7535-33f7-4f6c-97e6-8d6f72ef4ebc")
+	)
+	(wire
+		(pts
+			(xy 189.23 60.96) (xy 189.23 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "999d6ecd-b3e3-463b-9dd8-f441a13d3b2b")
+	)
+	(wire
+		(pts
+			(xy 186.69 60.96) (xy 163.83 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9c809fb4-6627-4865-92cd-f71537910658")
+	)
+	(wire
+		(pts
+			(xy 62.23 128.27) (xy 69.85 128.27)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9d34b6fd-81e5-4741-b3d1-0637aa8591ad")
+	)
+	(wire
+		(pts
+			(xy 69.85 115.57) (xy 69.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1b30a1-dac2-4c44-8884-629cec70fc97")
+	)
+	(wire
+		(pts
+			(xy 191.77 71.12) (xy 199.39 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9fa53190-39b2-4d1c-876f-e6634bc8edd2")
+	)
+	(wire
+		(pts
+			(xy 100.33 38.1) (xy 107.95 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a1b9a43a-6782-4060-9a24-8f8ee8c529c0")
+	)
+	(wire
+		(pts
+			(xy 62.23 101.6) (xy 62.23 128.27)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a1d8bbf8-b400-4132-bf32-ef8954c80187")
+	)
+	(wire
+		(pts
+			(xy 173.99 109.22) (xy 171.45 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a30e51c8-d8a3-4e2e-8065-f0bbdbfab75e")
+	)
+	(wire
+		(pts
+			(xy 133.35 114.3) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a6aa0f99-09ad-4db0-82ec-7e685428230d")
+	)
+	(wire
+		(pts
+			(xy 166.37 76.2) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a6c21946-3aba-405f-84ad-a8b9b6f26828")
+	)
+	(wire
+		(pts
+			(xy 130.81 40.64) (xy 153.67 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a6d29218-a4bd-49db-a93e-cb6cf05df765")
+	)
+	(wire
+		(pts
+			(xy 158.75 43.18) (xy 158.75 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a7a9bb82-51d6-4bd8-b9a5-9226c831a47c")
+	)
+	(wire
+		(pts
+			(xy 156.21 142.24) (xy 156.21 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a9a5518c-c9d5-4a59-b8be-7b7c2ee5b0eb")
+	)
+	(wire
+		(pts
+			(xy 161.29 91.44) (xy 161.29 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "accab06e-07e4-42ec-a156-f32cc5625856")
+	)
+	(wire
+		(pts
+			(xy 161.29 81.28) (xy 166.37 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "afb843d0-f1b2-4ee4-ab58-4b7a3fc7b86f")
+	)
+	(wire
+		(pts
+			(xy 173.99 111.76) (xy 163.83 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b03526df-9982-406b-831c-5f13799659f0")
+	)
+	(wire
+		(pts
+			(xy 173.99 83.82) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b093d663-6da7-4d5e-bc23-9a22329729da")
+	)
+	(wire
+		(pts
+			(xy 146.05 66.04) (xy 148.59 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b42cff59-9622-41f1-99e1-ac768fb402d0")
+	)
+	(wire
+		(pts
+			(xy 62.23 68.58) (xy 62.23 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b478c6a2-e5fa-44fc-8931-42e78cb0b968")
+	)
+	(wire
+		(pts
+			(xy 171.45 109.22) (xy 171.45 162.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b8d58549-8f7b-4152-b84a-eae0f77d2f51")
+	)
+	(wire
+		(pts
+			(xy 173.99 119.38) (xy 166.37 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bb2e4df6-46f5-4ce2-b415-36a7e92e9b55")
+	)
+	(wire
+		(pts
+			(xy 133.35 83.82) (xy 140.97 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bb319218-9c23-48e0-8fad-b3d35f244abf")
+	)
+	(wire
+		(pts
+			(xy 143.51 162.56) (xy 146.05 162.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "be6f49a3-f9c1-4e4d-b67d-7eebccee4d10")
+	)
+	(wire
+		(pts
+			(xy 219.71 88.9) (xy 219.71 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c26db795-4135-49d3-99dc-94d76d2d35f4")
+	)
+	(wire
+		(pts
+			(xy 153.67 43.18) (xy 158.75 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c30af1ba-c1d7-4738-8574-9fe647c05606")
+	)
+	(wire
+		(pts
+			(xy 133.35 81.28) (xy 161.29 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c4176226-b2a1-4b0e-8dc9-a157b598b0be")
+	)
+	(wire
+		(pts
+			(xy 156.21 58.42) (xy 156.21 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cb8b98c5-dff0-4970-9331-4e6c8de59a61")
+	)
+	(wire
+		(pts
+			(xy 222.25 73.66) (xy 163.83 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cf52472c-cd0e-4624-8358-e712d0395468")
+	)
+	(wire
+		(pts
+			(xy 133.35 45.72) (xy 133.35 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d06042a7-40df-49d5-9d09-9a6bf2243963")
+	)
+	(wire
+		(pts
+			(xy 85.09 45.72) (xy 97.79 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d077737c-47fc-4b72-a04f-b9983549467f")
+	)
+	(wire
+		(pts
+			(xy 214.63 60.96) (xy 209.55 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d165bbb2-97e1-4146-847e-ce67f136a0f0")
+	)
+	(wire
+		(pts
+			(xy 133.35 88.9) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d454ad61-c452-4f09-bb52-ede4094c6610")
+	)
+	(wire
+		(pts
+			(xy 163.83 132.08) (xy 151.13 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d92ab75b-e4e4-42f5-833e-6b84f85859bc")
+	)
+	(wire
+		(pts
+			(xy 161.29 162.56) (xy 171.45 162.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "db50ae66-92ff-46f3-a3a8-d3441cee5482")
+	)
+	(wire
+		(pts
+			(xy 151.13 91.44) (xy 151.13 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dc950408-51d5-4f4a-acc8-749eaad98619")
+	)
+	(wire
+		(pts
+			(xy 67.31 68.58) (xy 62.23 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dddd28e3-4056-4c28-946f-801640ab73ba")
+	)
+	(wire
+		(pts
+			(xy 219.71 76.2) (xy 166.37 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e0515bff-596f-4ea9-baf7-f583c1b8d9fd")
+	)
+	(wire
+		(pts
+			(xy 77.47 38.1) (xy 85.09 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e5bb0475-218e-4644-a01d-d3c675e94a8c")
+	)
+	(wire
+		(pts
+			(xy 143.51 58.42) (xy 143.51 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e8929c93-c2d0-4589-ada4-6d45abb8d12e")
+	)
+	(wire
+		(pts
+			(xy 87.63 111.76) (xy 69.85 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e9ba7e68-5f51-4990-913d-9e99e7faa0d4")
+	)
+	(wire
+		(pts
+			(xy 151.13 132.08) (xy 151.13 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f37cc471-1b6c-4a95-a103-55b7a4114472")
+	)
+	(wire
+		(pts
+			(xy 168.91 114.3) (xy 168.91 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fc5e4bfc-d8b1-47ae-97c8-f9e194182ae6")
+	)
+	(wire
+		(pts
+			(xy 133.35 78.74) (xy 151.13 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fecbed51-7bac-429e-9965-1665280c1e43")
+	)
+	(text "If GND, I2C addr =  0x11"
+		(exclude_from_sim no)
+		(at 123.19 124.46 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "18ba05fe-d2d8-4f0d-80f3-d6340df4a344")
+	)
+	(text "If VCC, I2C addr =  0x63"
+		(exclude_from_sim no)
+		(at 123.19 129.54 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "332f60f6-37fa-4f10-b8df-bb5af60c46b3")
+	)
+	(text "Optional"
+		(exclude_from_sim no)
+		(at 67.818 30.988 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "e55f7046-5a99-48b4-95a1-480861abba1b")
+	)
+	(global_label "GND2"
+		(shape bidirectional)
+		(at 214.63 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "849ec752-665a-4b74-9c0a-f123b9967d29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.9709 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXT_5V"
+		(shape bidirectional)
+		(at 173.99 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "a627b0fd-5f77-4461-ae77-e664bbd9963c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.4396 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape bidirectional)
+		(at 173.99 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "ed9bf9e0-a5ff-45ca-b0f4-a15d962bbe1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.6491 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:CXXC10B6")
+		(at 44.45 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0746cad0-cc5a-4410-9e53-9da671bba674")
+		(property "Reference" "C2"
+			(at 45.974 70.739 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CXXC10B6"
+			(at 45.974 75.819 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:XC10B6"
+			(at 44.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff4029e8-012e-4edd-a438-a9ad00921d74")
+		)
+		(pin "2"
+			(uuid "f3e7dccc-0519-4b0d-9bba-0fdcc5a41589")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:ENCODER-SWITCH")
+		(at 156.21 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1630b8aa-b9e9-4b21-ae89-cb7a57217df4")
+		(property "Reference" "S2"
+			(at 148.336 160.02 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ENCODER-SWITCH"
+			(at 164.084 160.02 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+			(at 156.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "017e52ec-3e25-4213-8f38-e7cf6c4e7cd8")
+		)
+		(pin "C"
+			(uuid "68ffbbc5-a4ce-46cf-b0d5-5bea132b5779")
+		)
+		(pin "SW+"
+			(uuid "78ef6081-5286-4e5a-9a62-04649c50a996")
+		)
+		(pin "SW-"
+			(uuid "30e7db19-0e08-4ea0-8d08-f3ef14824d7f")
+		)
+		(pin "B"
+			(uuid "bbad3a59-3490-47f0-ae92-83d5f1274ee9")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:SI4735-D60-GU")
+		(at 64.77 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "280cdc8d-0662-413a-a0ca-715fe47df714")
+		(property "Reference" "U1"
+			(at 76.454 57.912 0)
+			(effects
+				(font
+					(size 2.0828 1.7703)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SI4735-D60-GU"
+			(at 99.06 99.314 0)
+			(effects
+				(font
+					(size 2.0828 1.7703)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm"
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "2e5cf7ad-16da-43fc-b778-9119b502b0eb")
+		)
+		(pin "11"
+			(uuid "7f51d590-7f62-4542-a5aa-c5ee65114258")
+		)
+		(pin "13"
+			(uuid "2ae41e7b-2d40-4a0a-8871-7e30e0725f4c")
+		)
+		(pin "14"
+			(uuid "18d13f50-c244-4bb9-8a94-258cf66a1c25")
+		)
+		(pin "15"
+			(uuid "57610a68-c243-4120-8cff-2b5ffd71ef7b")
+		)
+		(pin "16"
+			(uuid "bb271706-4c91-4c20-98b7-b187b40d6266")
+		)
+		(pin "17"
+			(uuid "51262642-8eeb-414b-bc0a-393fe117539a")
+		)
+		(pin "12"
+			(uuid "f2f8e784-f35f-41ff-afdd-f8f94859d418")
+		)
+		(pin "18"
+			(uuid "918b2c5c-0457-4e21-8702-4d18a63dd031")
+		)
+		(pin "1"
+			(uuid "3a590bb3-9229-47e6-9a88-94c4fedc0f14")
+		)
+		(pin "20"
+			(uuid "b520451c-dcd1-4d15-8cb3-499003716862")
+		)
+		(pin "7"
+			(uuid "ce185004-0e60-45eb-86f9-8ae14b29a4a2")
+		)
+		(pin "19"
+			(uuid "f33b034e-bf92-49ea-9ed7-ec26877b80b3")
+		)
+		(pin "4"
+			(uuid "17749b8b-2276-4d9c-8ee5-191c5d286f37")
+		)
+		(pin "5"
+			(uuid "82ab539f-3b7f-4990-8422-f9372ce9adc1")
+		)
+		(pin "9"
+			(uuid "d7075870-5d33-4fb2-a28d-4a0545ca668e")
+		)
+		(pin "22"
+			(uuid "4efed79a-6db5-4eeb-ae80-388d1efd9d7f")
+		)
+		(pin "24"
+			(uuid "d15573c5-4339-4ab9-ac2f-5fc85856ef88")
+		)
+		(pin "6"
+			(uuid "aca34ac6-b787-48de-8553-2749895b4450")
+		)
+		(pin "3"
+			(uuid "b1d80037-9d07-4cf8-8f1c-3c058d793123")
+		)
+		(pin "2"
+			(uuid "da6253b2-0509-4bc0-8159-24b65dc129da")
+		)
+		(pin "21"
+			(uuid "c20cddae-357d-480f-b46d-cc974bafc2c4")
+		)
+		(pin "8"
+			(uuid "74a5f678-311f-462a-8c75-53559952a21d")
+		)
+		(pin "23"
+			(uuid "dd43d9ac-1773-4a46-a92d-d6bc73164285")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:ESP32-DEVKITC-32D")
+		(at 194.31 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2866b541-8df9-49f8-ba25-6603ea4d4d50")
+		(property "Reference" "U2"
+			(at 179.0528 80.6157 0)
+			(effects
+				(font
+					(size 1.78 1.513)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ESP32-DEVKITC-32D"
+			(at 185.166 135.128 0)
+			(effects
+				(font
+					(size 1.7799 1.5129)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_Espressif:ESP32-DevKitC-no_ant"
+			(at 194.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b209016b-3fe7-4239-a108-1cafcac17b07")
+		)
+		(pin "11"
+			(uuid "49e3dd7a-3bbc-4613-9a98-a568709d1bd5")
+		)
+		(pin "15"
+			(uuid "721c1bee-b7a6-4b26-a401-25a83185d578")
+		)
+		(pin "16"
+			(uuid "8cd33e20-2846-4103-b158-db37efb43769")
+		)
+		(pin "14"
+			(uuid "406fa058-ec20-4ba5-bca2-46a52e067440")
+		)
+		(pin "13"
+			(uuid "2b072976-b69a-4377-9c26-6468b1e4d5e4")
+		)
+		(pin "18"
+			(uuid "70f6cdfc-04da-4766-862b-baeece6c29cc")
+		)
+		(pin "10"
+			(uuid "2560e9fd-456d-4114-87b7-0542885d9742")
+		)
+		(pin "12"
+			(uuid "064ace6b-4ea4-477f-a0dc-ea564afae791")
+		)
+		(pin "17"
+			(uuid "c279bbd5-89f7-419d-bedd-562178ecc952")
+		)
+		(pin "30"
+			(uuid "a56fdc6a-f04b-485d-a71d-e68137c2564a")
+		)
+		(pin "21"
+			(uuid "04c9862a-417a-42c6-8b5c-7ca84fc56b48")
+		)
+		(pin "35"
+			(uuid "7695713f-5e71-4deb-bd00-bb7735be5466")
+		)
+		(pin "6"
+			(uuid "604913fc-218c-415b-8fcb-ce65d1e087c5")
+		)
+		(pin "9"
+			(uuid "bcf53bc9-9e87-4fec-9f93-f1413bdb5a08")
+		)
+		(pin "5"
+			(uuid "2dbbe5af-34b8-401b-a09e-75e47b1413ac")
+		)
+		(pin "20"
+			(uuid "f648d52f-29c6-4ee8-9d9c-583ef5fb50fb")
+		)
+		(pin "23"
+			(uuid "f54227e5-2c63-42fe-86f3-6d7900196024")
+		)
+		(pin "29"
+			(uuid "19419405-d6ed-41a4-b345-7468776d7673")
+		)
+		(pin "4"
+			(uuid "f46850f7-cd91-4e70-904c-ffbc89e00dd3")
+		)
+		(pin "26"
+			(uuid "706f4b00-802e-4b4a-bd0d-d05141ec5db1")
+		)
+		(pin "32"
+			(uuid "0f3e0770-c820-4dd8-b724-9cb9705b44e1")
+		)
+		(pin "25"
+			(uuid "de6c39d5-a25a-44a9-8615-401b85b03818")
+		)
+		(pin "8"
+			(uuid "39f2a4d0-d4f0-4161-be4a-356c11f08909")
+		)
+		(pin "27"
+			(uuid "5207af69-649d-489e-ad0f-3037159aa753")
+		)
+		(pin "22"
+			(uuid "2b5daab1-a7d1-43ad-b41f-bfa9749af13f")
+		)
+		(pin "19"
+			(uuid "527b21eb-c96f-4c9e-9df2-5d43cac6257c")
+		)
+		(pin "36"
+			(uuid "45f7af88-0146-45c1-a679-70e4cdc88e3a")
+		)
+		(pin "34"
+			(uuid "67f6a840-270e-43bd-9619-9e6df148b87e")
+		)
+		(pin "7"
+			(uuid "f13bf647-c7d6-4fc6-9786-986cfee9efe3")
+		)
+		(pin "2"
+			(uuid "7bad65af-1407-4bd2-bf92-d04fd3e509b6")
+		)
+		(pin "24"
+			(uuid "b91f771b-afef-44f6-ab1d-f79da3fd7c40")
+		)
+		(pin "33"
+			(uuid "8459d1ce-a036-4a83-a92e-6acb000457e7")
+		)
+		(pin "37"
+			(uuid "6244c0a9-90c9-4aa3-8db7-48467a4a24e3")
+		)
+		(pin "38"
+			(uuid "dfa73a98-26c8-42db-aade-a68343cc54f1")
+		)
+		(pin "31"
+			(uuid "78c524b9-299d-4b91-a949-552bcda15c5c")
+		)
+		(pin "3"
+			(uuid "7c4556b9-5e3f-494f-a786-9a308d1a0b36")
+		)
+		(pin "28"
+			(uuid "dbdfee92-df5d-4b0b-890c-cacccd1e436f")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:GND")
+		(at 146.05 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "312c6d08-48db-4449-a466-cd9599fd2fe3")
+		(property "Reference" "#GND06"
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 167.64 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08f8ad68-1b38-41bf-a212-45be47ee69dc")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:CXXC10B6")
+		(at 156.21 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3eb0d6a2-e194-4ef3-bc66-d952971bfb8d")
+		(property "Reference" "C4"
+			(at 157.734 52.959 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 148.844 58.674 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:XC10B6"
+			(at 156.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08af1056-bc49-4dbc-8b62-51641e6b4b80")
+		)
+		(pin "1"
+			(uuid "ae8d1882-96f3-48bf-a4a7-1e5927121291")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:22NF/22,000PF-0603-50V-10%")
+		(at 143.51 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b796069-fdb8-4af2-9cd1-3d884395bf22")
+		(property "Reference" "C1"
+			(at 140.97 61.468 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22nF"
+			(at 150.368 61.214 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:0603"
+			(at 143.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d22afc9d-3cc0-4b4b-9777-4466d98ee72c")
+		)
+		(pin "2"
+			(uuid "968093e5-e99f-4a55-8ade-f575cefe573e")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:ANTENNA")
+		(at 87.63 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cd1f3b3-87ce-44e2-a568-a37c7e8856eb")
+		(property "Reference" "AM0"
+			(at 88.9 102.616 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ANTENNA"
+			(at 90.17 109.22 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:PAD-01"
+			(at 87.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7f12471-345f-4680-8faf-60b4acc31d18")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "AM0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:GND")
+		(at 209.55 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dd475d8-5bd5-4aac-a7ba-4e8eec88fa84")
+		(property "Reference" "#GND02"
+			(at 209.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 53.34 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a5a0a77-3b10-4926-93b7-c1888428b59d")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:ANTENNA")
+		(at 44.45 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50221c3a-e0d3-4e7b-99c3-beb39b4a032e")
+		(property "Reference" "FM0"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ANTENNA"
+			(at 46.99 55.88 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:PAD-01"
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "386277a5-65ce-47e6-8e4d-d374fac54b36")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "FM0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:CXXC10B6")
+		(at 69.85 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58bc9cfb-c644-40c8-a6ef-e6e830b65657")
+		(property "Reference" "C3"
+			(at 71.374 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CXXC10B6"
+			(at 68.834 103.124 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:XC10B6"
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1ce017c-9749-499b-a836-4f88e9ecfe00")
+		)
+		(pin "1"
+			(uuid "f36dade3-70de-4f09-b462-7b08eee7415a")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:22PF-0603-50V-5%")
+		(at 107.95 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58fd9014-be71-4057-a508-a355225ad109")
+		(property "Reference" "C6"
+			(at 110.236 40.64 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22pF"
+			(at 109.474 45.339 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:0603"
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "848499f6-81d9-430b-b2ca-f72c29cf1475")
+		)
+		(pin "2"
+			(uuid "ceeefb67-0ef8-48db-a25c-637c7b81fb38")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:4.7UF-1206-16V-(+80/-20%)")
+		(at 143.51 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58ff7bd1-dcb5-435c-8216-ba044a8fdfb3")
+		(property "Reference" "C8"
+			(at 145.034 50.419 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 145.034 55.499 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:1206"
+			(at 143.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34133eac-e89e-49bf-9b1e-918b9f06234b")
+		)
+		(pin "2"
+			(uuid "845eb680-e7b3-461f-b951-ade41898a6e3")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:VCC")
+		(at 151.13 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6509d6e8-163c-4d20-b967-7841d8061d61")
+		(property "Reference" "#SUPPLY01"
+			(at 151.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 154.305 71.755 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ec2129d-a093-4450-a5be-0e0de367cdc2")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "#SUPPLY01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:3.3KOHM-0603-1/10W-1%")
+		(at 151.13 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82d598ec-b058-44b0-9377-3ddc4afa64ec")
+		(property "Reference" "R1"
+			(at 148.082 95.758 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 155.194 93.472 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:0603"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a669f4d-3a08-4490-8503-9f2fee942b09")
+		)
+		(pin "2"
+			(uuid "eb7c47b0-44bf-4a92-8c7e-21d1d500debe")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:2.2KOHM-0603-1/10W-1%")
+		(at 72.39 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d30495d-163f-45d5-8cbf-42890f5ffb02")
+		(property "Reference" "R3"
+			(at 72.39 36.576 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 72.39 39.624 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:0603"
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6ea6afb-fb55-41cf-926b-3eeb7acc22ce")
+		)
+		(pin "1"
+			(uuid "52b54148-d6f5-438b-a104-1f9ac739c212")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:AUDIO_JACK_2.5MMSPECIAL_POGO_PINS")
+		(at 125.73 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c75a763-1077-4946-886f-257d5d9042da")
+		(property "Reference" "J1"
+			(at 119.38 49.784 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "AUDIO_JACK_2.5MMSPECIAL_POGO_PINS"
+			(at 119.888 32.512 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:STEREOJACK2.5MM_SPECIAL_POGOPINS"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TIP"
+			(uuid "c70d3afe-743b-49a7-8377-c8f257ca076c")
+		)
+		(pin "RING1"
+			(uuid "e6ba9ed0-9a04-4b49-b360-7e2bb7a536c9")
+		)
+		(pin "SHIELD"
+			(uuid "5ab73ef4-3ba9-4aed-b2a0-9e13cc5be857")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:GND")
+		(at 41.91 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dff7704-e764-4477-a458-344361de058d")
+		(property "Reference" "#GND05"
+			(at 41.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 106.68 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54a9e592-4849-4430-bf86-51c17f4588b2")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "#GND05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:GND")
+		(at 41.91 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7dc41ff-c808-4d02-8fc4-fb3c2299603f")
+		(property "Reference" "#GND07"
+			(at 41.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 96.52 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eb4c298-e09d-4d2f-8e81-6d51127f9b4e")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "#GND07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:GND")
+		(at 133.35 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a844310f-f3da-4a47-902a-8e43da5b6938")
+		(property "Reference" "#GND01"
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d18a930c-119e-4782-9399-2b7121fcb4f1")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:CRYSTALPTH-2X6")
+		(at 97.79 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2103076-cbc9-4f1b-9fdc-1c24971709db")
+		(property "Reference" "Y1"
+			(at 97.79 36.068 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "CRYSTALPTH-2X6"
+			(at 97.79 28.702 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:CRYSTAL-PTH-2X6-CYL"
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39db8fef-74aa-4274-bd3a-a8dc28915202")
+		)
+		(pin "2"
+			(uuid "cfe60879-4764-4679-a14a-d81c6f0e175e")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:3.3KOHM-0603-1/10W-1%")
+		(at 161.29 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6864f85-5862-48ae-b8b7-4125db8dd732")
+		(property "Reference" "R2"
+			(at 157.988 95.758 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 165.1 93.726 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:0603"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "069a6d16-902b-4124-9f22-4cd25e192f9d")
+		)
+		(pin "1"
+			(uuid "fbf1cf83-9bda-4844-b8c8-436b9e028cd3")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:DISPLAY-OLED-128X64-I2C")
+		(at 189.23 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c065c816-e813-41ab-aead-0bb84054d784")
+		(property "Reference" "U$1"
+			(at 175.006 52.578 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DISPLAY-OLED-128X64-I2C"
+			(at 206.502 22.352 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Display:Adafruit_SSD1306"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b2f7edf-e42c-4a47-b7a9-059d93b0570b")
+		)
+		(pin "3"
+			(uuid "7aa043b9-750a-46af-a169-f69eda5656c6")
+		)
+		(pin "4"
+			(uuid "59c35069-f6c8-4322-afc9-3022fc460a83")
+		)
+		(pin "2"
+			(uuid "ce6cd78f-15c2-4212-9c9e-069d07c29087")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "U$1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:22PF-0603-50V-5%")
+		(at 85.09 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2e9b01a-5a65-4f50-a01c-9eb9965e881c")
+		(property "Reference" "C5"
+			(at 86.614 40.259 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22pF"
+			(at 86.614 45.339 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:0603"
+			(at 85.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11add9fe-c068-43fa-84c1-f05b377059f8")
+		)
+		(pin "2"
+			(uuid "169d71de-e302-4b26-99d4-8665d6a3fd6b")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:GND")
+		(at 97.79 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9a92712-90e1-4693-90d7-917a0d5393b5")
+		(property "Reference" "#GND03"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 50.8 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d883779-7c54-40b6-83fe-acda7272fe38")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "#GND03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:GND")
+		(at 153.67 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb91e403-ae3e-4613-a52a-7dae7f626b13")
+		(property "Reference" "#GND04"
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 48.26 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1affdab2-9fd2-44a8-a024-1d7a1974c204")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "#GND04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:VCC")
+		(at 143.51 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5831879-4e92-4152-8116-67a5703d4926")
+		(property "Reference" "#SUPPLY04"
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 145.415 117.475 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5369517-1a08-43fe-9aee-422847bed953")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "#SUPPLY04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:TL36WO")
+		(at 140.97 106.68 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6dddd31-0bef-4e31-848a-b9f97d9c5076")
+		(property "Reference" "S1"
+			(at 146.05 104.14 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "TL36WO"
+			(at 148.59 104.14 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:TL3XWO"
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "481e05f0-80a9-473f-9e31-3625f7dcf248")
+		)
+		(pin "1"
+			(uuid "d53f6665-f78d-4128-b138-e5ce1c4ae31f")
+		)
+		(pin "3"
+			(uuid "3e275110-45a8-4547-b4fa-1657bd086aa1")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:L")
+		(at 69.85 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e281066a-0673-4452-8d80-c089cc3d27dc")
+		(property "Reference" "#L1"
+			(at 67.31 125.73 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "L"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e2cffe5-cbbb-4543-897b-a5bb3553eaeb")
+		)
+		(pin "1"
+			(uuid "4992d9b6-2dc4-4931-b2b5-ce8092431564")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "#L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:4.7UF-1206-16V-(+80/-20%)")
+		(at 133.35 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6ce062a-62e2-47c7-9c7c-52ffdafe24e9")
+		(property "Reference" "C7"
+			(at 134.874 50.419 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 134.874 55.499 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "schematic_esp32_oled:1206"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80f5c318-4426-44ca-a5c9-681fd236bae8")
+		)
+		(pin "1"
+			(uuid "21a7907c-8297-4d93-a495-0c6aebf25704")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematic_esp32_oled-eagle-import:VCC")
+		(at 199.39 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebac9f2a-bfb0-4e75-b912-f94dd6a17491")
+		(property "Reference" "#SUPPLY02"
+			(at 199.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 197.485 65.405 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "070cafc8-ca66-4dc6-8ee3-0c4bfe0e1bb5")
+		)
+		(instances
+			(project ""
+				(path "/48958671-ba4f-447e-b0b4-1b0da96d47b2"
+					(reference "#SUPPLY02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
